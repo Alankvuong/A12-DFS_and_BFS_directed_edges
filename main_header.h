@@ -12,7 +12,7 @@ using namespace std;
 void PrintHeader()
 {
 	cout << "*************************************************" << endl
-		<< "*  Programmed by : Ethan Lew, Tim Diersing,     *" << endl
+		<< "*  Programmed by : Ethan Bockler, Tim Diersing, *" << endl
 		<< "*                  Alan Vuong                   *" << endl
 		<< "*  Assignment    : A11: DFS and BFS             *" << endl
 		<< "*                                               *" << endl
