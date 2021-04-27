@@ -1,0 +1,233 @@
+*************************************************
+*  Programmed by : Ethan Bockler, Tim Diersing, *
+*                  Alan Vuong                   *
+*  Assignment    : A11: DFS and BFS             *
+*                                               *
+*  This program will demonstrate a depth-first  *
+*  and breadth-first search of a directed graph.*
+*************************************************
+
+ DFS
+-----
+Denver
+Chicago
+Boston
+New York
+Atlanta
+Miami
+Houston
+Dallas
+Kansas City
+Los Angeles
+Seattle
+San Francisco
+-----------------------
+
+Total Distance: 10238
+
+Initial Vertex: Chicago
+Terminal Vertex: Boston
+Edge Type: Discovery
+
+Initial Vertex: Chicago
+Terminal Vertex: Seattle
+Edge Type: Discovery
+
+Initial Vertex: Seattle
+Terminal Vertex: San Francisco
+Edge Type: Discovery
+
+Initial Vertex: Seattle
+Terminal Vertex: Denver
+Edge Type: Back
+
+Initial Vertex: Boston
+Terminal Vertex: New York
+Edge Type: Discovery
+
+Initial Vertex: San Francisco
+Terminal Vertex: Los Angeles
+Edge Type: Cross
+
+Initial Vertex: Denver
+Terminal Vertex: Chicago
+Edge Type: Discovery
+
+Initial Vertex: Denver
+Terminal Vertex: San Francisco
+Edge Type: Forward
+
+Initial Vertex: New York
+Terminal Vertex: Chicago
+Edge Type: Back
+
+Initial Vertex: New York
+Terminal Vertex: Atlanta
+Edge Type: Discovery
+
+Initial Vertex: Los Angeles
+Terminal Vertex: Denver
+Edge Type: Back
+
+Initial Vertex: Kansas City
+Terminal Vertex: Chicago
+Edge Type: Back
+
+Initial Vertex: Kansas City
+Terminal Vertex: Denver
+Edge Type: Back
+
+Initial Vertex: Kansas City
+Terminal Vertex: Atlanta
+Edge Type: Back
+
+Initial Vertex: Kansas City
+Terminal Vertex: New York
+Edge Type: Back
+
+Initial Vertex: Kansas City
+Terminal Vertex: Los Angeles
+Edge Type: Discovery
+
+Initial Vertex: Atlanta
+Terminal Vertex: Miami
+Edge Type: Discovery
+
+Initial Vertex: Dallas
+Terminal Vertex: Kansas City
+Edge Type: Discovery
+
+Initial Vertex: Dallas
+Terminal Vertex: Atlanta
+Edge Type: Back
+
+Initial Vertex: Dallas
+Terminal Vertex: Los Angeles
+Edge Type: Forward
+
+Initial Vertex: Houston
+Terminal Vertex: Dallas
+Edge Type: Discovery
+
+Initial Vertex: Houston
+Terminal Vertex: Atlanta
+Edge Type: Back
+
+Initial Vertex: Miami
+Terminal Vertex: Houston
+Edge Type: Discovery
+
+
+ BFS
+-----
+Denver
+Chicago
+San Francisco
+Boston
+Seattle
+Los Angeles
+New York
+Atlanta
+Miami
+Houston
+Dallas
+Kansas City
+
+Total Distance: 9416
+
+Initial Vertex: Chicago
+Terminal Vertex: Seattle
+Edge Type: Discovery
+
+Initial Vertex: Chicago
+Terminal Vertex: Boston
+Edge Type: Discovery
+
+Initial Vertex: Seattle
+Terminal Vertex: San Francisco
+Edge Type: Cross
+
+Initial Vertex: Seattle
+Terminal Vertex: Denver
+Edge Type: Back
+
+Initial Vertex: Boston
+Terminal Vertex: New York
+Edge Type: Discovery
+
+Initial Vertex: San Francisco
+Terminal Vertex: Los Angeles
+Edge Type: Discovery
+
+Initial Vertex: Denver
+Terminal Vertex: Chicago
+Edge Type: Discovery
+
+Initial Vertex: Denver
+Terminal Vertex: San Francisco
+Edge Type: Discovery
+
+Initial Vertex: New York
+Terminal Vertex: Chicago
+Edge Type: Cross
+
+Initial Vertex: New York
+Terminal Vertex: Atlanta
+Edge Type: Discovery
+
+Initial Vertex: Los Angeles
+Terminal Vertex: Denver
+Edge Type: Back
+
+Initial Vertex: Kansas City
+Terminal Vertex: Chicago
+Edge Type: Cross
+
+Initial Vertex: Kansas City
+Terminal Vertex: Denver
+Edge Type: Back
+
+Initial Vertex: Kansas City
+Terminal Vertex: New York
+Edge Type: Cross
+
+Initial Vertex: Kansas City
+Terminal Vertex: Los Angeles
+Edge Type: Cross
+
+Initial Vertex: Kansas City
+Terminal Vertex: Atlanta
+Edge Type: Cross
+
+Initial Vertex: Atlanta
+Terminal Vertex: Miami
+Edge Type: Discovery
+
+Initial Vertex: Dallas
+Terminal Vertex: Los Angeles
+Edge Type: Cross
+
+Initial Vertex: Dallas
+Terminal Vertex: Kansas City
+Edge Type: Discovery
+
+Initial Vertex: Dallas
+Terminal Vertex: Atlanta
+Edge Type: Cross
+
+Initial Vertex: Houston
+Terminal Vertex: Atlanta
+Edge Type: Cross
+
+Initial Vertex: Houston
+Terminal Vertex: Dallas
+Edge Type: Discovery
+
+Initial Vertex: Miami
+Terminal Vertex: Houston
+Edge Type: Discovery
+
+
+A directed graph is said to be strongly connected if there is a path between all pairs of vertices.
+According to the definition, the graph ** IS **  strongly connected because each node can access every other node
+at any point within the graph.
